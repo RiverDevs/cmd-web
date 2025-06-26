@@ -1369,6 +1369,19 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
+.whatsapp-btn {
+    transition: all 0.3s ease;
+}
+.whatsapp-btn:hover {
+    background-color: #128C7E !important; /* Color WhatsApp más oscuro al hover */
+    transform: translateY(-2px);
+}
+.whatsapp-link {
+    color: #25D366; /* Color WhatsApp */
+    text-decoration: none;
+    font-weight: 500;
+}
+
 .contact .php-email-form button[type=submit] {
   color: var(--contrast-color);
   background: var(--accent-color);
