@@ -227,3 +227,25 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+/**
+ * Inicializador de Carrusel Swiper (Compatible con iPortfolio)
+ */
+function initSwiper() {
+  document.querySelectorAll(".init-swiper").forEach(function(swiperElement) {
+    let configElement = swiperElement.querySelector(".swiper-config");
+    
+    if (configElement) {
+      let config = JSON.parse(configElement.innerHTML.trim());
+      
+      // Si quieres forzar algún cambio global, puedes hacerlo aquí
+      // Ejemplo: Hacer que siempre sea un poco más lento
+      config.speed = 800; 
+
+      new Swiper(swiperElement, config);
+    }
+  });
+}
+
+// Ejecutar cuando el DOM esté listo
+document.addEventListener('DOMContentLoaded', initSwiper);

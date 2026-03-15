@@ -9,8 +9,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/CMD.png" rel="icon">
-  <link href="assets/img/CMD.png" rel="apple-touch-icon">
+  <link href="assets/img/logo250X250 sin fondo.png" rel="icon">
+  <link href="assets/img/logo250X250 sin fondo.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -42,7 +42,7 @@
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
-      <img src="assets/img/logo-cmd.png" alt="" class="img-fluid rounded-circle">
+      <img src="assets/img/logo_cmd_4000X4000 sin fondo.png" alt="" class="img-fluid rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
@@ -68,20 +68,24 @@
             <li class="dropdown"><a href="#"><span>RM</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                 <li><a href="mestre-fuga.html">Casa Matriz. Mestre Fuga</a></li>
-                <li><a href="puma.html">Maipú P. Puma</a></li>
+                <li><a href="puma.html">Maipú M. Puma</a></li>
                 <li><a href="quati.html">La Reina P. Quati</a></li>
                 <li><a href="splinter.html">Cerrillos P. Splinter</a></li>
-                <li><a href="robin.html">Lo Prado I. Robin</a></li>
-                <li><a href="jc.html">Estación Central E. JC</a></li>
+                <li><a href="robin.html">Lo Prado P. Robin</a></li>
+                <li><a href="jc.html">Estación Central I. JC</a></li>
               </ul>
             </li>
             <li class="dropdown"><a><span>VI region</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            
+              <ul>
+                <li><a href="jc.html">Longavi I. Joelheo</a></li>
+              </ul>
+            </li>
             <li><a>Brasil</a></li>
             <li class="dropdown"><a href="mestre-xodo.html"><span>Parana</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                 <li><a href="mestre-xodo.html">Maringa Mestre. Xodo</a></li>
               </ul>
+            </li>  
             <li><a>Venezuela</a></li>
             <li><a>Argentina</a></li>
           </ul>
@@ -102,14 +106,109 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/PRINCIPAL.jpg" alt="" data-aos="fade-in" class="">
+      <img src="assets/img/PRINCIPAL.jpg" alt="" data-aos="fade-in" class="">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="40">
-        <h2>CAPOEIRA DE MEU DEUS</h2>
-        <p>Más que una academia  <span class="typed" data-typed-items=" un lugar para reencontrarse, un espacio acogedor, una familia, un lugar de experiencias, un centro donde crecer, y mucho más... ">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      <div class="container" data-aos="fade-up" data-aos-delay="40">
+        <h2>CAPOEIRA DE MEU DEUS</h2>
+        <p>Más que una academia  <span class="typed" data-typed-items=" un lugar para reencontrarse, un espacio acogedor, una familia, un lugar de experiencias, un centro donde crecer, y mucho más... ">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
+ 
+    </section>
+
+<!-- Academias Carousel Section -->    
+
+<section id="academias-carousel" class="section light-background" style="padding: 40px 0;">
+  <div class="container" data-aos="fade-up">
+    <h3 style="text-align: center; margin-bottom: 30px;">Nuestras Academias CMD - ¡Conócelas!</h3>
+
+    <div class="swiper init-swiper">
+
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 3000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          },
+          "breakpoints": {
+            "320": { "slidesPerView": 1, "spaceBetween": 20 },
+            "576": { "slidesPerView": 2, "spaceBetween": 20 },
+            "992": { "slidesPerView": 3, "spaceBetween": 30 },
+            "1200": { "slidesPerView": 4, "spaceBetween": 30 }
+          }
+        }
+      </script>
+
+      <div class="swiper-wrapper">
+  
+  <div class="swiper-slide" style="position: relative; overflow: hidden; border-radius: 10px;">
+    <a href="mestre-fuga.html" target="_blank">
+      <img src="assets/img/Academias/MestreFuga.jpg" style="width:100%; height:250px; object-fit:cover; display:block;">
+      <div class="carousel-caption" style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.7); color: white; padding: 10px; text-align: center; font-size: 14px;">
+        Casa Matriz | Mestre Fuga
       </div>
+    </a>
+  </div>
 
-    </section><!-- /Hero Section -->
+  <div class="swiper-slide" style="position: relative; overflow: hidden; border-radius: 10px;">
+    <a href="jc.html" target="_blank">
+      <img src="assets/img/Academias/Sarandi.jpeg" style="width:100%; height:250px; object-fit:cover; display:block;">
+      <div class="carousel-caption" style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.7); color: white; padding: 10px; text-align: center; font-size: 14px;">
+        Sanrandi / Brasil | Mestre Xodo
+      </div>
+    </a>
+  </div>
+
+  <div class="swiper-slide" style="position: relative; overflow: hidden; border-radius: 10px;">
+    <a href="puma.html" target="_blank">
+      <img src="assets/img/Academias/Maipu.jpeg" style="width:100%; height:250px; object-fit:cover; display:block;">
+      <div class="carousel-caption" style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.7); color: white; padding: 10px; text-align: center; font-size: 14px;">
+        Maipú | Mestre. Puma
+      </div>
+    </a>
+  </div>
+
+  <div class="swiper-slide" style="position: relative; overflow: hidden; border-radius: 10px;">
+    <a href="quati.html" target="_blank">
+      <img src="assets/img/Academias/LaReina.jpg" style="width:100%; height:250px; object-fit:cover; display:block;">
+      <div class="carousel-caption" style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.7); color: white; padding: 10px; text-align: center; font-size: 14px;">
+        La Reina | Profesor. Quati
+      </div>
+    </a>
+  </div>
+
+  <div class="swiper-slide" style="position: relative; overflow: hidden; border-radius: 10px;">
+    <a href="robin.html" target="_blank">
+      <img src="assets/img/Academias/LoPrado.jpeg" style="width:100%; height:250px; object-fit:cover; display:block;">
+      <div class="carousel-caption" style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.7); color: white; padding: 10px; text-align: center; font-size: 14px;">
+        Lo Prado | Profesor. Robin
+      </div>
+    </a>
+  </div>
+
+  <div class="swiper-slide" style="position: relative; overflow: hidden; border-radius: 10px;">
+    <a href="jc.html" target="_blank">
+      <img src="assets/img/Academias/EstCentral.jpg" style="width:100%; height:250px; object-fit:cover; display:block;">
+      <div class="carousel-caption" style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.7); color: white; padding: 10px; text-align: center; font-size: 14px;">
+        Estación Central | Instructor. JC
+      </div>
+    </a>
+  </div>
+
+</div>
+
+      </div> <div class="swiper-pagination"></div>
+      
+    </div> </div> </section>
+
+    <!-- End Academias Carousel Section -->
+
 
     <!-- About Section -->
     <section id="about" class="about section">
@@ -128,7 +227,7 @@
 
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
-            <img src="assets/img/logo-cmd.png" class="img-fluid" alt="">
+            <img src="assets/img/logo_cmd_4000X4000 sin fondo.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 content">
             <h2>CMD, el camino a la Maestría</h2>
@@ -388,7 +487,6 @@
             <li data-filter=".filter-mestres">Mestres</li>
             <li data-filter=".filter-profesores">Profesores</li>
             <li data-filter=".filter-instructores">Instructores</li>
-            <li data-filter=".filter-estagiarios">Estagiarios</li>
             <li data-filter=".filter-rodas">Rodas</li>
           </ul><!-- End Portfolio Filters -->
 
@@ -418,6 +516,18 @@
               </div>
             </div><!-- End Portfolio Item -->
 
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mestres">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/Docentes CMD/Puma.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Docente</h4>
+                  <p>Mestre Puma</p>
+                  <a href="assets/img/Docentes CMD/Puma.jpg" title="Ampliar" data-gallery="portfolio-gallery-mestres" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="puma.html" title="Más info." class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-profesores">
               <div class="portfolio-content h-100">
                 <img src="assets/img/Docentes CMD/Splinter.jpeg" class="img-fluid" alt="">
@@ -442,38 +552,63 @@
               </div>
             </div><!-- End Portfolio Item -->
 
+
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-profesores">
               <div class="portfolio-content h-100">
-                <img src="assets/img/Docentes CMD/Puma.jpg" class="img-fluid" alt="">
+                <img src="assets/img/Docentes CMD/Robin.jpeg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Docente</h4>
-                  <p>Profesor Puma</p>
-                  <a href="assets/img/Docentes CMD/Puma.jpg" title="Ampliar" data-gallery="portfolio-gallery-profesores" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="puma.html" title="Más info." class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <p>Profesor Robin</p>
+                  <a href="assets/img/Docentes CMD/Robin.jpeg" title="Ampliar" data-gallery="portfolio-gallery-profesores" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="robin.html" title="Más info." class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-instructores">
               <div class="portfolio-content h-100">
-                <img src="assets/img/Docentes CMD/Robin.jpeg" class="img-fluid" alt="">
+                <img src="assets/img/Docentes CMD/JC.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Docente</h4>
-                  <p>Instructor Robin</p>
-                  <a href="assets/img/Docentes CMD/Robin.jpeg" title="Ampliar" data-gallery="portfolio-gallery-instructor" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="robin.html" title="Más info." class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <p>Instructor JC</p>
+                  <a href="assets/img/Docentes CMD/JC.jpg" title="Ampliar" data-gallery="portfolio-gallery-instructores" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="jc.html" title="Más info." class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-estagiarios">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-rodas">
               <div class="portfolio-content h-100">
-                <img src="assets/img/Docentes CMD/JC.jpg" class="img-fluid" alt="">
+                <img src="assets/img/Galeria/RodaMensual/RodaEnero2026.jpeg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Docente</h4>
-                  <p>Estagiario JC</p>
-                  <a href="assets/img/Docentes CMD/JC.jpg" title="Ampliar" data-gallery="portfolio-gallery-estagiario" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="jc.html" title="Más info." class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h4>Roda na Rua</h4>
+                  <p>1° Sábado de cada mes</p>
+                  <a href="assets/img/Galeria/RodaMensual/RodaEnero2026.jpeg" title="Ampliar" data-gallery="portfolio-gallery-rodas" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="mestre-fuga.html" title="Más info." class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-rodas">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/Galeria/RodaMensual/RodaFebrero2026.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Roda na Rua</h4>
+                  <p>1° Sábado de cada mes</p>
+                  <a href="assets/img/Galeria/RodaMensual/RodaFebrero2026.jpeg" title="Ampliar" data-gallery="portfolio-gallery-rodas" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="mestre-fuga.html" title="Más info." class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-rodas">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/Galeria/RodaMensual/RodaMarzo2026.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Roda na Rua</h4>
+                  <p>1° Sábado de cada mes</p>
+                  <a href="assets/img/Galeria/RodaMensual/RodaMarzo2026.jpeg" title="Ampliar" data-gallery="portfolio-gallery-rodas" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="mestre-fuga.html" title="Más info." class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -530,18 +665,18 @@
 
             <div class="swiper-slide">
               <div class="evento-item">
-                <a href="assets/img/Eventos/Ceremonia de Graduaciones Robin.jpeg" 
+                <a href="assets/img/Eventos/PROXIMAMENTE.png" 
                     data-gallery="portfolio-gallery-estagiario" 
                     class="glightbox">
        
-                  <img src="assets/img/Eventos/Ceremonia de Graduaciones Robin.jpeg" class="evento-img" alt="Ceremonia de Graduaciones en Academia de Instructor Robin">
+                  <img src="assets/img/Eventos/PROXIMAMENTE.png" class="evento-img" alt="Ceremonia de Graduaciones en Academia de Instructor Robin">
                 </a>
                 <div class="evento-descripcion">
                   <h3>Ceremonia de Graduaciones</h3>
-                  <h4>Mayo 2025</h4>
+                  <h4>Junio 2026</h4>
                   <p>
                     <i class="quote-icon-left"></i>
-                    <span>Graduaciones Instructor Robin. Ceremonia de graduaciones en Academia de Instructor Robin</span>
+                    <span>Ceremonia de graduaciones Mestre Puma, Profesor Robin, Profesor Raposa.</span>
                     <i class="quote-icon-right"></i>
                   </p>
                 </div>
@@ -550,15 +685,15 @@
 
             <div class="swiper-slide">
               <div class="evento-item">
-                <a href="assets/img/Eventos/SEMINARIO.png" 
+                <a href="assets/img/Eventos/PROXIMAMENTE.png" 
                     data-gallery="portfolio-gallery-estagiario" 
                     class="glightbox">
        
-                  <img src="assets/img/Eventos/SEMINARIO.png" class="evento-img" alt="Ceremonia de Graduaciones en Academia de Instructor Robin">
+                  <img src="assets/img/Eventos/PROXIMAMENTE.png" class="evento-img" alt="Ceremonia de Graduaciones en Academia de Instructor Robin">
                 </a>
                 <div class="evento-descripcion">
                   <h3>Seminario Capoeira Funcional</h3>
-                  <h4>Julio 2025</h4>
+                  <h4>2026</h4>
                   <p>
                     <i class="quote-icon-left"></i>
                     <span>Desarrollo de la  potencia y resistencia de  mediana duración para el jogo</span>
@@ -570,79 +705,18 @@
 
             <div class="swiper-slide">
               <div class="evento-item">
-                <a href="assets/img/Eventos/2°_Encuentro_de_Capoeira_EstacionCentral.jpeg" 
+                <a href="assets/img/Eventos/PROXIMAMENTE.png" 
                     data-gallery="portfolio-gallery-estagiario" 
                     class="glightbox">
        
-                  <img src="assets/img/Eventos/2°_Encuentro_de_Capoeira_EstacionCentral.jpeg" class="evento-img" alt="Ceremonia de Graduaciones en Academia de Instructor Robin">
-                </a>
-                <div class="evento-descripcion">
-                  <h3>2° Encuentro de Capoeria</h3>
-                  <h4>2 Agosto 2025</h4>
-                  <p>
-                    <i class="quote-icon-left"></i>
-                    <span>Vamos a untarnos para divertirno y celebrar la Capoeria</span>
-                    <i class="quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End Evento item -->
-
-            <div class="swiper-slide">
-              <div class="evento-item">
-                <a href="assets/img/Eventos/Mirim_axé.jpeg" 
-                    data-gallery="portfolio-gallery-estagiario" 
-                    class="glightbox">
-       
-                  <img src="assets/img/Eventos/Mirim_axé.jpeg" class="evento-img" alt="Ceremonia de Graduaciones en Academia de Instructor Robin">
+                  <img src="assets/img/Eventos/PROXIMAMENTE.png" class="evento-img" alt="Ceremonia de Graduaciones en Academia de Instructor Robin">
                 </a>
                 <div class="evento-descripcion">
                   <h3>Festival Mirim Axé</h3>
-                  <h4>9 Agosto 2025</h4>
+                  <h4>Agosto 2026</h4>
                   <p>
                     <i class="quote-icon-left"></i>
                     <span>Festival Mirim Axé. Los niños viven una experiencia única destinada principalmente para ellos</span>
-                    <i class="quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End Evento item -->
-
-            <div class="swiper-slide">
-              <div class="evento-item">
-                <a href="assets/img/Eventos/Show cmd.png" 
-                    data-gallery="portfolio-gallery-estagiario" 
-                    class="glightbox">
-       
-                  <img src="assets/img/Eventos/Show cmd.png" class="evento-img" alt="Ceremonia de Graduaciones en Academia de Instructor Robin">
-                </a>
-                <div class="evento-descripcion">
-                  <h3>Clase y presentación</h3>
-                  <h4>24 Agosto 2025</h4>
-                  <p>
-                    <i class="quote-icon-left"></i>
-                    <span>Presentación CMD Mall Arauco Maipú</span>
-                    <i class="quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End Evento item -->
-
-
-            <div class="swiper-slide">
-              <div class="evento-item">
-                <a href="assets/img/Eventos/Evento_passarinho.jpeg" 
-                    data-gallery="portfolio-gallery-estagiario" 
-                    class="glightbox">
-       
-                  <img src="assets/img/Eventos/Evento_passarinho.jpeg" class="evento-img" alt="Ceremonia de Graduaciones en Academia de Instructor Robin">
-                </a>
-                <div class="evento-descripcion">
-                  <h3>Brasil - Chile</h3>
-                  <h4>19 Octubre 2025</h4>
-                  <p>
-                    <i class="quote-icon-left"></i>
-                    <span>Asociación deportiva y cultural "capoeira pássaro da liberdade"</span>
                     <i class="quote-icon-right"></i>
                   </p>
                 </div>
@@ -659,7 +733,7 @@
                 </a>
                 <div class="evento-descripcion">
                   <h3>Torneo Consistencia de Juego</h3>
-                  <h4>Octubre 2025</h4>
+                  <h4>2026</h4>
                   <p>
                     <i class="quote-icon-left"></i>
                     <span>Vive el mejor torneo de Capoeira en Chile</span>
@@ -671,15 +745,15 @@
 
             <div class="swiper-slide">
               <div class="evento-item">
-                <a href="assets/img/Eventos/Graduaciones_LoPraddo_MestreFuga.jpeg" 
+                <a href="assets/img/Eventos/PROXIMAMENTE.png" 
                     data-gallery="portfolio-gallery-estagiario" 
                     class="glightbox">
        
-                  <img src="assets/img/Eventos/Graduaciones_LoPraddo_MestreFuga.jpeg" class="evento-img" alt="Ceremonia de Graduaciones en Academia de Instructor Robin">
+                  <img src="assets/img/Eventos/PROXIMAMENTE.png" class="evento-img" alt="Ceremonia de Graduaciones en Academia de Instructor Robin">
                 </a>
                 <div class="evento-descripcion">
                   <h3>Graduaciones CMD  Casa Matriz, Chile</h3>
-                  <h4>Domingo 2 Noviembre 2025</h4>
+                  <h4>Noviembre 2026</h4>
                   <p>
                     <i class="quote-icon-left"></i>
                     <span>Mestre Fuga</span>
@@ -691,35 +765,15 @@
 
             <div class="swiper-slide">
               <div class="evento-item">
-                <a href="assets/img/Eventos/Graduaciones_Brasil.jpeg" 
+                <a href="assets/img/Eventos/PROXIMAMENTE.png" 
                     data-gallery="portfolio-gallery-estagiario" 
                     class="glightbox">
        
-                  <img src="assets/img/Eventos/Graduaciones_Brasil.jpeg" class="evento-img" alt="Ceremonia de Graduaciones en Academia de Instructor Robin">
-                </a>
-                <div class="evento-descripcion">
-                  <h3>Graduaciones CMD  Maringa, Brasil</h3>
-                  <h4>Domingo 9 Noviembre 2025</h4>
-                  <p>
-                    <i class="quote-icon-left"></i>
-                    <span>Mestre Xodo CMD</span>
-                    <i class="quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End Evento item -->
-
-            <div class="swiper-slide">
-              <div class="evento-item">
-                <a href="assets/img/Eventos/Graduaciones Quati.jpeg" 
-                    data-gallery="portfolio-gallery-estagiario" 
-                    class="glightbox">
-       
-                  <img src="assets/img/Eventos/Graduaciones Quati.jpeg" class="evento-img" alt="Ceremonia de Graduaciones en Academia de Instructor Robin">
+                  <img src="assets/img/Eventos/PROXIMAMENTE.png" class="evento-img" alt="Ceremonia de Graduaciones en Academia de Instructor Robin">
                 </a>
                 <div class="evento-descripcion">
                   <h3>Graduaciones CMD  Profesor Quati</h3>
-                  <h4>Sábado 29 Noviembre 2025</h4>
+                  <h4>Noviembre 2026</h4>
                   <p>
                     <i class="quote-icon-left"></i>
                     <span>Profesor Quati</span>
@@ -738,11 +792,11 @@
                   <img src="assets/img/Eventos/PROXIMAMENTE.png" class="evento-img" alt="Ceremonia de Graduaciones en Academia de Instructor Robin">
                 </a>
                 <div class="evento-descripcion">
-                  <h3>EXPOEIRA CMD</h3>
+                  <h3>30 años CMD</h3>
                   <h4>Enero 2026</h4>
                   <p>
                     <i class="quote-icon-left"></i>
-                    <span>Expoeira, la Expo que reune lo mejor de la enseñanza, las mejores rodas y la mejor convivencia capoeristica en Chile</span>
+                    <span>Nos reuniremos para vivir la mejor fiesta, las mejores rodas y la mejor convivencia capoeristica en Chile</span>
                     <i class="quote-icon-right"></i>
                   </p>
                 </div>
@@ -785,11 +839,11 @@
                 <div>
                   <h3>WhatsApp</h3>
                   <p>
-                  <a href="https://wa.me/56961711943" 
+                  <a href="https://wa.me/56967495106" 
                     class="whatsapp-link" 
                     target="_blank" 
                     rel="noopener noreferrer">  <!-- ¡Corrección importante aquí! -->
-                    +56 959235055
+                    +56 967495106
                   </a>
                   </p>
                 </div>

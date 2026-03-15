@@ -160,8 +160,7 @@ h6 {
 .header .profile-img img {
   margin: 5px auto;
   display: block;
-  width: 250px;
-  
+  width: 200px;
 }
 
 .header .logo {
@@ -1521,9 +1520,71 @@ section,
   color: var(--accent-color);
 }
 
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+
+/* Ajustes para los Slides de Academias */
+
+/* Fuerza la visibilidad del wrapper */
+.swiper-wrapper {
+  display: flex !important;
+  align-items: stretch;
+}
+
+/* Asegura que el slide no tenga altura 0 */
+.swiper-slide {
+  height: auto !important;
+}
+
+#academias-carousel .swiper-slide {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  /* Añadimos un poco de padding para que las sombras no se corten */
+  padding: 10px 0; 
+}
+
+
+
+#academias-carousel .carousel-item {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  background: #000;
+  /* Asegura que el cursor sea un puntero si es un enlace */
+  cursor: pointer;
+}
+
+#academias-carousel .carousel-item img {
+  width: 100%;
+  height: 250px; 
+  min-height: 250px;
+  object-fit: cover;
+  transition: transform 0.4s ease; /* Un poquito más lento para mayor elegancia */
+  display: block;
+}
+
+/* Evita que el caption se mueva con el zoom de la imagen */
+#academias-carousel .carousel-item:hover img {
+  transform: scale(1.1);
+}
+
+#academias-carousel .carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.75); /* Un poco más oscuro para leer mejor */
+  color: #fff;
+  padding: 12px 10px;
+  text-align: center;
+  font-size: 15px; /* Un pelín más grande */
+  font-weight: 500;
+  z-index: 2; /* Asegura que esté por encima de la imagen */
+}
+
+/* Espaciado para los puntos de paginación */
+#academias-carousel .swiper-pagination {
+  position: relative;
+  margin-top: 20px;
 }
